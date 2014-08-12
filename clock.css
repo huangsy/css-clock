@@ -202,7 +202,7 @@ abbr,acronym { border: 0;
     top: 200px;
     transform: rotate(90deg);
     -webkit-animation-name: hourmove;
-    -webkit-animation-duration: 21600s;
+    -webkit-animation-duration: 43200s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 }
