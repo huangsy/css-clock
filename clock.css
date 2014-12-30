@@ -233,6 +233,10 @@ abbr,acronym { border: 0;
     -webkit-animation-iteration-count: infinite;
 }
 
+.second-hand .hand {
+    background: red;
+}
+
 @-webkit-keyframes secondmove {
     from {
         transform: rotate(90deg);
