@@ -229,7 +229,7 @@ abbr,acronym { border: 0;
     transform: rotate(90deg);
     -webkit-animation-name: secondmove;
     -webkit-animation-duration: 60s;
-    -webkit-animation-timing-function: steps(60, end);
+    -webkit-animation-timing-function: steps(60, end); /* 参考http://www.qianduan.net/css3-animation.html */
     -webkit-animation-iteration-count: infinite;
 }
 
