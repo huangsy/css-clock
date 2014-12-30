@@ -220,6 +220,28 @@ abbr,acronym { border: 0;
     -webkit-animation-iteration-count: infinite;
 }
 
+.second-hand {
+    width: 350px;
+    height: 1px;
+    position: absolute;
+    left: 32px;
+    top: 200px;
+    transform: rotate(90deg);
+    -webkit-animation-name: secondmove;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: steps(60, end);
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes secondmove {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(450deg);
+    }
+}
+
 @-webkit-keyframes minutemove {
     from {
         transform: rotate(90deg);
